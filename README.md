@@ -1,5 +1,5 @@
 # EyeFix
-Implements a variety of algorithms for seperating fixations and saccades.
+Implements a variety of algorithms for seperating fixations and saccades (see also Salvucci & Goldberg, 2000).
 
 - Threshold-based methods
     * [ ] I-VT
@@ -8,5 +8,5 @@ Implements a variety of algorithms for seperating fixations and saccades.
     * [ ] kmeans
 
 - Probabilistic methods
-    * [ ] Gaussian Mixture Model
     * [ ] Hidden Markov Model
+    * [ ] Gaussian Mixture Model

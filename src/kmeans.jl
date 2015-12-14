@@ -54,3 +54,12 @@ function kmeans{T <: Real}(coords::Array{T, 2}; k::Int64 = 1)
     @assert size(coords, 2) == 2
     kmeans_algorithm(coords, k)
 end
+
+dat = [
+1 1
+1.5 2
+3 4
+5 7
+3.5 5
+4.5 5
+3.5 4.5]

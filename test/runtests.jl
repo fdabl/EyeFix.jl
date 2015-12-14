@@ -34,3 +34,5 @@ res = IDT(dummy; durthresh = 10000, disthresh = 100000)
 dd = dummy[:, 2:3]
 res1 = kmeans(dd; k = 2)
 res2 = kmeans(dd[:, 1], dd[:, 2]; k = 2)
+
+res = GMM(dummy[:, 1]; k = 2)
